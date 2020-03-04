@@ -1,0 +1,41 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color: #f0d8d8;
+}
+
+.navbar{
+  margin-top: 22px;
+  /* display: inline-block; */
+}
+
+.nav{
+  margin: auto;
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+}
+
+li {
+  display: inline;
+}
+
+.navitem{
+  color: #191919;
+  text-align: center;
+  font-family: sofia-pro, sans-serif;
+  font-weight: 300;
+  font-size: 15pt;
+  letter-spacing: 0.1em;
+  list-style-type: none;
+  margin: auto 90px;
+  text-decoration: none;
+}
+
+.navitem:hover{
+  color: #E54225;
+  font-style: italic;
+}
