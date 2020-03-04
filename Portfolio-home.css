@@ -1,0 +1,68 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+h1{
+  font-family: big-caslon-fb, serif;
+  font-weight: 800;
+  font-style: normal;
+
+  font-size: 200pt;
+  color:white;
+  letter-spacing: 0.02em;
+  margin-top: 5%;
+
+}
+
+#isabelle{
+  text-align: left;
+  margin-top: 130px;
+  margin-left: 3%;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+#rieken{
+  text-align: right;
+  margin-right: 3%;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #D5CEC3;
+}
+
+.navbar{
+  margin-top: 22px;
+  /* display: inline-block; */
+}
+
+.nav{
+  margin: auto;
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+}
+
+li {
+  display: inline;
+}
+
+.navitem{
+  color: #191919;
+  text-align: center;
+  font-family: sofia-pro, sans-serif;
+  font-weight: 300;
+  font-size: 15pt;
+  letter-spacing: 0.1em;
+  list-style-type: none;
+  margin: auto 90px;
+  text-decoration: none;
+}
+
+.navitem:hover{
+  color: #E54225;
+  font-style: italic;
+}
