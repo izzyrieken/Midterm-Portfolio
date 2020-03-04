@@ -10,12 +10,12 @@ body{
 .about{
   font-size: 40pt;
   color: #f2f2f2;
-  font-family: AvenirLTPro-Light;
+  /* font-family: 'AvenirLTPro-Light';
   font-weight: normal;
-  font-style: normal;
-  /* font-family: sofia-pro, sans-serif;
-  font-weight: 200;
   font-style: normal; */
+  font-family: sofia-pro, sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
 p{
@@ -27,8 +27,12 @@ p{
   margin-top: 200px;
   font-size: 100pt;
   color: #e54225;
-  line-height: 0.5em;
+  line-height: 0.4em;
   text-align: justify;
+}
+
+.socialmedia{
+  font-size: 40pt;
 }
 
 .navbar{
