@@ -10,11 +10,9 @@ body{
 .about{
   font-size: 40pt;
   color: #f2f2f2;
-  /* font-family: 'AvenirLTPro-Light';
+  font-family: 'AvenirLTPro-Light', sans-serif;
   font-weight: normal;
-  font-style: normal; */
-  font-family: sofia-pro, sans-serif;
-  font-weight: 200;
+  font-style: normal;
   font-style: normal;
 }
 
@@ -29,6 +27,10 @@ p{
   color: #e54225;
   line-height: 0.4em;
   text-align: justify;
+}
+
+img{
+  width:30%;
 }
 
 .socialmedia{
