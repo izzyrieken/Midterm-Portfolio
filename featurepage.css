@@ -39,26 +39,3 @@ li {
   color: #E54225;
   font-style: italic;
 }
-
-p{
-  margin-top: 90px;
-  font-family: big-caslon-fb, serif;
-  font-size: 85pt;
-  letter-spacing: 1px;
-  margin-left: 200px;
-  line-height: 180px;
-
-}
-
-a{
-  color: #e54225;
-  text-decoration: none;
-}
-
-a:hover{
-  color:white;
-}
-
-.smallfont{
-  font-size: 15px;
-}
