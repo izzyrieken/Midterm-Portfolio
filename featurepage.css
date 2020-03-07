@@ -39,3 +39,32 @@ li {
   color: #E54225;
   font-style: italic;
 }
+
+iframe{
+  width:900px;
+  height: 506px;
+  display: block;
+  margin: 130px auto 0 auto;
+  /* margin-left: 200px;
+  margin-top: 150px; */
+
+}
+
+p{
+  /* text-align: right; */
+  /* text-align: justify; */
+  font-family: 'AvenirLTPro-Light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 30pt;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top:40px;
+}
+
+.links{
+  color:blue;
+  text-decoration: none;
+}
