@@ -40,17 +40,32 @@ li {
   font-style: italic;
 }
 
-.masonry { /* Masonry container */
-  column-count: 3;
-  column-gap: 5em;
-  margin-left: 185px;
-  margin-right: 185px;
-  margin-top: 200px;
+img{
+  margin-left: 200px;
+  margin-top: 160px;
+  padding-bottom: 30px;
+  width:40%;
+  float: left;
 }
 
-.item { /* Masonry bricks or child elements */
-  background-color: #eee;
-  display: inline-block;
-  margin: 0 0 2em;
-  width: 110%;
+h1{
+  font-family: big-caslon-fb, serif;
+  letter-spacing: 0.07em;
+  margin-top: 90px;
+  font-size: 40pt;
+  position: fixed;
+  margin-left: 1000px;
+}
+
+p{
+  font-family: 'AvenirLTPro-Light', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.0.5em;
+  margin-top: 90px;
+  padding-top: 80px;
+  font-size: 20pt;
+  position: fixed;
+  margin-left: 1000px;
+  margin-right: 200px;
+  line-height: 1.5em;
 }
