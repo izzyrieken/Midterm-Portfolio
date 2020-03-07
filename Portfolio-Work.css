@@ -54,3 +54,44 @@ li {
   margin: 0 0 2em;
   width: 110%;
 }
+
+
+.container {
+  position: relative;
+  /* width: 50%; */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: none;
+}
+
+.container:hover .item{
+  opacity: 0.5;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  font-family: big-caslon-fb, serif;
+  letter-spacing: 0.05em;
+  color: white;
+  font-size: 90pt;
+  position: absolute;
+  padding-top: 130px;
+  text-align: center;
+  color: #78648e;
+}
+
+/* .item:hover{
+  opacity: 0.7;
+} */
