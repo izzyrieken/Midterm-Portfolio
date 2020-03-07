@@ -62,9 +62,15 @@ p{
   margin-left: 250px;
   margin-right: 250px;
   margin-top:40px;
+  text-decoration: none;
+  color: #e54225;
 }
 
-.links{
-  color:blue;
-  text-decoration: none;
+a{
+  text-decoration: underline;
+  color: #e54225;
+}
+
+a:hover{
+  font-style: italic;
 }
