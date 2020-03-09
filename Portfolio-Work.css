@@ -88,8 +88,20 @@ li {
   position: absolute;
   padding-top: 130px;
   text-align: center;
-  color: #78648e;
 
+
+}
+
+.purple{
+  color: #78648e;
+}
+
+.yellow{
+  color:#efbf60;
+}
+
+.red{
+  color:#e54225;
 }
 
 /* .item:hover{
