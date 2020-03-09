@@ -71,7 +71,7 @@ li {
   width: 110%;
   opacity: 0;
   transition: .1s ease;
-  background-color: none;
+  /* background-color: none; */
 }
 
 .container:hover .item{
@@ -82,10 +82,8 @@ li {
 }
 
 .text {
-
   font-family: big-caslon-fb, serif;
   letter-spacing: 0.05em;
-  color: white;
   font-size: 50pt;
   position: absolute;
   padding-top: 130px;
