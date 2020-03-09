@@ -46,6 +46,7 @@ img{
   padding-bottom: 30px;
   width:40%;
   float: left;
+  image-orientation: from-image;
 }
 
 iframe{
@@ -78,3 +79,6 @@ p{
   margin-right: 200px;
   line-height: 1.5em;
 }
+/* .rotate{
+  transform: rotate(-90deg);
+} */
