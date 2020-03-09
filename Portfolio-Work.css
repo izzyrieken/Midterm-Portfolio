@@ -122,6 +122,20 @@ li {
     margin: auto 90px;
     text-decoration: none;
   }
+  .masonry { /* Masonry container */
+    column-count: 2;
+    column-gap: 6em;
+    margin-left: 185px;
+    margin-right: 185px;
+    margin-top: 200px;
+  }
+
+  .item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 3em;
+    width: 110%;
+  }
 }
 
 @media screen and (max-width: 1180px) {
@@ -141,5 +155,23 @@ li {
     list-style-type: none;
     margin: auto 40px;
     text-decoration: none;
+  }
+
+}
+
+@media screen and (max-width: 1080px) {
+  .masonry { /* Masonry container */
+    column-count: 1;
+    column-gap: 6em;
+    margin-left: 185px;
+    margin-right: 185px;
+    margin-top: 200px;
+  }
+
+  .item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 3em;
+    width: 110%;
   }
 }
