@@ -79,3 +79,43 @@ p{
   margin-right: 200px;
   line-height: 1.5em;
 }
+
+@media screen and (max-width: 1500px) {
+  .nav{
+    margin: auto;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .navitem{
+    color: #191919;
+    text-align: center;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+    list-style-type: none;
+    margin: auto 90px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .nav{
+    margin: auto;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .navitem{
+    color: #191919;
+    text-align: center;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+    list-style-type: none;
+    margin: auto 40px;
+    text-decoration: none;
+  }
+}
