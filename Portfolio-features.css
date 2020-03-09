@@ -114,7 +114,8 @@ a:hover{
     font-size: 70pt;
     letter-spacing: 1px;
     line-height: 120px;
-
+    text-align: center;
+    margin-left: 0px;
   }
 
   .smallfont{
