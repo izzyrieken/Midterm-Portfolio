@@ -47,7 +47,6 @@ p{
   letter-spacing: 1px;
   margin-left: 200px;
   line-height: 180px;
-
 }
 
 a{
@@ -83,6 +82,15 @@ a:hover{
   }
 }
 
+@media screen and (max-width: 1300px) {
+  p{
+    font-size: 70pt;
+    letter-spacing: 1px;
+    line-height: 150px;
+  }
+
+}
+
 @media screen and (max-width: 1180px) {
   .nav{
     margin: auto;
@@ -100,5 +108,16 @@ a:hover{
     list-style-type: none;
     margin: auto 40px;
     text-decoration: none;
+  }
+
+  p{
+    font-size: 70pt;
+    letter-spacing: 1px;
+    line-height: 120px;
+
+  }
+
+  .smallfont{
+    display: none;
   }
 }

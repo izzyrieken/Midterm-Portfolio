@@ -71,6 +71,7 @@ li {
   width: 110%;
   opacity: 0;
   transition: .1s ease;
+  pointer-events: none;
   /* background-color: none; */
 }
 
