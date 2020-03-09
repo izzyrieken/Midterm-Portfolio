@@ -48,6 +48,14 @@ img{
   float: left;
 }
 
+iframe{
+  margin-left: 200px;
+  margin-top: 160px;
+  padding-bottom: 30px;
+  width:40%;
+  float: left;
+}
+
 h1{
   font-family: big-caslon-fb, serif;
   letter-spacing: 0.07em;
@@ -63,9 +71,14 @@ p{
   letter-spacing: 0.0.5em;
   margin-top: 90px;
   padding-top: 80px;
+  padding-bottom: 150px;
   font-size: 20pt;
   position: fixed;
   margin-left: 1000px;
   margin-right: 200px;
   line-height: 1.5em;
+}
+
+.extend{
+  margin-top: 1000px;
 }
