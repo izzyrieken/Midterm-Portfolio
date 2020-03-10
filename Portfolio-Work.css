@@ -176,3 +176,14 @@ li {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 480px) {
+
+  h1{
+    font-size:50pt;
+  }
+  .navitem{
+    font-size: 9pt;
+    margin: auto 0px;
+  }
+}

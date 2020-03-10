@@ -197,3 +197,22 @@ li {
     text-decoration: none;
   }
 }
+
+@media screen and (max-width: 1020px) {
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 480px) {
+
+  h1{
+    font-size:50pt;
+  }
+  .navitem{
+    font-size: 9pt;
+    margin: auto 0px;
+  }
+}
