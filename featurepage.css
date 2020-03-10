@@ -47,7 +47,6 @@ iframe{
   margin: 130px auto 0 auto;
   /* margin-left: 200px;
   margin-top: 150px; */
-
 }
 
 p{
@@ -116,5 +115,33 @@ a:hover{
     list-style-type: none;
     margin: auto 40px;
     text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  iframe{
+    width:700px;
+    height: 394px;
+    display: block;
+    margin: 130px auto 0 auto;
+    /* margin-left: 200px;
+    margin-top: 150px; */
+  }
+  p{
+    font-size: 20pt;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  iframe{
+    width:500px;
+    height: 281px;
+    display: block;
+    margin: 130px auto 0 auto;
+    /* margin-left: 200px;
+    margin-top: 150px; */
+  }
+  p{
+    font-size: 10pt;
   }
 }

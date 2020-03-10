@@ -44,7 +44,7 @@ body{
 }
 
 #circle p{
-  padding-top: 40px;
+  padding-top: 25px;
   font-family: big-caslon-fb, serif;
   font-weight: 800;
   font-style: normal;
@@ -74,6 +74,12 @@ img{
 
 .socialmedia{
   font-size: 40pt;
+  color: #78648e;
+  text-decoration: none;
+}
+
+.socialmedia:hover{
+  font-style: italic;
 }
 
 .navbar{
@@ -109,6 +115,8 @@ li {
   font-style: italic;
 }
 
+
+
 @media screen and (max-width: 1500px) {
   .nav{
     margin: auto;
@@ -126,6 +134,47 @@ li {
     list-style-type: none;
     margin: auto 90px;
     text-decoration: none;
+  }
+
+  img{
+    margin-left: 150px;
+  }
+
+  #circle p{
+    font-size: 50pt;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .about{
+    font-size: 15pt;
+  }
+
+  #circle .curve{
+    margin-right:10rem;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  img{
+    margin-left: 90px;
+  }
+  #circle p{
+    font-size: 45pt;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .about{
+    font-size: 15pt;
+  }
+  .socialmedia{
+    font-size: 25pt;
+    color: #78648e;
+    text-decoration: none;
+  }
+  #circle .curve{
+    margin-right:7rem;
   }
 }
 
