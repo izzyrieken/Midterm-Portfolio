@@ -215,4 +215,11 @@ li {
     font-size: 9pt;
     margin: auto 0px;
   }
+  #circle p{
+    font-size: 25pt;
+  }
+
+  .about{
+    font-size: 10pt;
+  }
 }
